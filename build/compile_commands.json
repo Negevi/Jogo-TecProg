@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/msys64/home/luken/Codes/Tec_prog_jogo/build",
+  "command": "C:\\msys64\\mingw64\\bin\\cc.exe -DSB_CONFIG_UNITY -IC:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sheenbidi-src/Headers -IC:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sheenbidi-src/Source -w -o _deps\\sheenbidi-build\\CMakeFiles\\SheenBidi.dir\\Source\\SheenBidi.c.obj -c C:\\msys64\\home\\luken\\Codes\\Tec_prog_jogo\\build\\_deps\\sheenbidi-src\\Source\\SheenBidi.c",
+  "file": "C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sheenbidi-src/Source/SheenBidi.c",
+  "output": "C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/Source/SheenBidi.c.obj"
+}
+]

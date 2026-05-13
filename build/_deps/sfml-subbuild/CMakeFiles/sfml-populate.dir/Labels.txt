@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

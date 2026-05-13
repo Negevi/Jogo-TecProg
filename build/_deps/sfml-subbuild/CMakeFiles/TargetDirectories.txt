@@ -1,0 +1,3 @@
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+C:/msys64/home/luken/Codes/Tec_prog_jogo/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir
