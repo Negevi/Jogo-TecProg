@@ -1,0 +1,40 @@
+.o
+*.obj
+*.a
+*.lib
+ 
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+_deps/
+ 
+# Ninja
+*.ninja
+.ninja_deps
+.ninja_log
+ 
+# SFML library folder (partner installs their own)
+SFML/
+SFML-*/
+sfml/
+sfml-*/
+ 
+# DLLs (runtime files, not source)
+*.dll
+ 
+# IDE / Editor folders
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docinfo
+.vs/
+ 
+# Windows junk
+Thumbs.db
+Desktop.ini
+ehthumbs.db
