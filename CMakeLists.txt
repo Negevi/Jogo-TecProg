@@ -18,6 +18,7 @@ add_executable(main
     src/main.cpp
     src/Principal.cpp
     src/Personagem.cpp
+    src/Jogador.cpp
 ) 
 # Adicionar .cpps adicionais acima
 target_compile_features(main PRIVATE cxx_std_17)

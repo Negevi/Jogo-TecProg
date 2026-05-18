@@ -440,7 +440,25 @@
 											"top": 301,
 											"width": 191,
 											"height": 13,
-											"text": "-hitbox: sf::RectangleShape",
+											"text": "-sprite: sf::Sprite",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGeLRt2T8utRzQ=",
+											"_parent": {
+												"$ref": "AAAAAAGeLNPcMqzMBEc="
+											},
+											"model": {
+												"$ref": "AAAAAAGeLRt2SMuqBg8="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 565,
+											"top": 316,
+											"width": 191,
+											"height": 13,
+											"text": "-textura: sf::Texture",
 											"horizontalAlignment": 0
 										}
 									],
@@ -449,7 +467,7 @@
 									"left": 560,
 									"top": 281,
 									"width": 201,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -473,7 +491,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 565,
-											"top": 324,
+											"top": 339,
 											"width": 191,
 											"height": 13,
 											"text": "«create»+Personagem()",
@@ -491,7 +509,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 565,
-											"top": 339,
+											"top": 354,
 											"width": 191,
 											"height": 13,
 											"text": "«destroy»+~Personagem()",
@@ -509,7 +527,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 565,
-											"top": 354,
+											"top": 369,
 											"width": 191,
 											"height": 13,
 											"text": "+atualizar(): void",
@@ -527,7 +545,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 565,
-											"top": 369,
+											"top": 384,
 											"width": 191,
 											"height": 13,
 											"text": "+desenhar(): void",
@@ -537,7 +555,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 560,
-									"top": 319,
+									"top": 334,
 									"width": 201,
 									"height": 68
 								},
@@ -1070,9 +1088,19 @@
 							"_parent": {
 								"$ref": "AAAAAAGeLNPcMqzEka4="
 							},
-							"name": "hitbox",
+							"name": "sprite",
 							"visibility": "private",
-							"type": "sf::RectangleShape"
+							"type": "sf::Sprite"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGeLRt2SMuqBg8=",
+							"_parent": {
+								"$ref": "AAAAAAGeLNPcMqzEka4="
+							},
+							"name": "textura",
+							"visibility": "private",
+							"type": "sf::Texture"
 						}
 					],
 					"operations": [

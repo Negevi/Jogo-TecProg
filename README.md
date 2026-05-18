@@ -1,5 +1,5 @@
 TODO:
+- Finalizar BG
 - Movimentos
-- Sprite handling
 - Mapa, colisao, fisica
 - Atualizar UML

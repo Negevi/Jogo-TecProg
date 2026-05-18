@@ -6,7 +6,7 @@ sf::Texture carregarTextura(const char* pathToTexture) {
     sf::Texture textura;
 
     if(pathToTexture == nullptr) {
-        if(textura.loadFromFile("placeholder.png")) {
+        if(textura.loadFromFile("../assets/placeholder.png")) {
             std::cout << "Substituindo por placeholder..." << std::endl;
             return textura;
         }
@@ -16,7 +16,7 @@ sf::Texture carregarTextura(const char* pathToTexture) {
 
     if (!textura.loadFromFile(pathToTexture)) {
         std::cerr << "Falha ao carregar a textura para o caminho " << pathToTexture << std::endl;
-        if(textura.loadFromFile("placeholder.png"))
+        if(textura.loadFromFile("../assets/placeholder.png"))
             std::cout << ", substituindo por placeholder..." << std::endl;
         else
             std::cerr << "Falha ao carregar a textura placeholder!" << std::endl;
@@ -25,7 +25,8 @@ sf::Texture carregarTextura(const char* pathToTexture) {
     std::cout << "Tamanho da textura: " << textura.getSize().x << "x" << textura.getSize().y << std::endl;
 
     return textura;
-}
+} 
+// Func. auxiliar para carregar a textura.
 
 Personagem::Personagem(float xInicial, float yInicial, const char* pathToTexture): textura(carregarTextura(pathToTexture)), sprite(textura) {
 
@@ -33,7 +34,7 @@ Personagem::Personagem(float xInicial, float yInicial, const char* pathToTexture
 
     sprite.setTextureRect(sf::IntRect({0, 0}, {(int)textura.getSize().x, (int)textura.getSize().y}));
 
-    sprite.setScale({0.5f, 0.5f});
+    sprite.setScale({0.1f, 0.1f});
     sprite.setPosition(posicao);
 }
 
@@ -47,4 +48,14 @@ void Personagem::atualizar() {
 
 void Personagem::desenhar(sf::RenderWindow* janela) {
     janela->draw(sprite);
+}
+
+void Personagem::moverX(float dx) {
+    posicao.x += dx;
+    sprite.setPosition(posicao);
+}
+
+void Personagem::moverY(float dy) {
+    posicao.y += dy;
+    sprite.setPosition(posicao);
 }

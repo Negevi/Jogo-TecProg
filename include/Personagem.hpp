@@ -8,6 +8,9 @@ class Personagem {
     public:
         Personagem(float xInicial = 0.0f, float yInicial = 0.0f, const char* pathToTexture = nullptr);
         ~Personagem();
-        void atualizar();
         void desenhar(sf::RenderWindow* janela);
+        void moverX(float dx);
+        void moverY(float dy);
+
+        virtual void atualizar();
 };
